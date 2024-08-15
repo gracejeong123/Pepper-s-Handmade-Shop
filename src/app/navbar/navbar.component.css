@@ -1,0 +1,92 @@
+/* src/app/navbar/navbar.component.css */
+
+/* Logo container styling (if using logo as background image) */
+.logo-container {
+  height: 400px; /* Increase the height to make the logo larger */
+  width: 100%; /* Full width of the container */
+  background-image: url('/assets/logo.png'); /* Path to your logo */
+  background-size: contain; /* Adjust to 'cover' if you want it to fill the container */
+  background-repeat: no-repeat;
+  background-position: center; /* Center the logo */
+  margin-bottom: 5px; /* Space between logo and navbar */
+  background-color: #f8f5f1;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #f8f5f1; /* Background color of the navbar */
+  padding: 10px 0; /* Padding around the navbar items */
+  height: 50px;
+  display: flex; /* Align items horizontally */
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Center items vertically */
+  padding: 0 10px; /* Padding on left and right */
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Center items vertically */
+  max-width: 1200px; /* Maximum width of the container */
+  margin: 0 auto; /* Center the container */
+}
+
+.nav {
+  list-style-type: none; /* Remove default list styling */
+  display: flex; /* Align items horizontally */
+  gap: 1.5rem; /* Space between navigation items */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.nav-link {
+  color: rgb(63, 84, 49); /* Text color */
+  font-weight: bold; /* Font weight */
+  text-decoration: none; /* Remove underline */
+  font-size: 14px;
+  padding: 5px 10px;
+  font-family: 'Courier New', monospace;
+}
+.nav-item {
+  margin: 0; /* Remove or reduce margin */
+}
+.nav-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.search-bar-container {
+  display: flex;
+  align-items: center; /* Center search bar vertically */
+}
+
+.search-bar {
+  display: flex; /* Align search bar elements horizontally */
+  gap: 0.5rem; /* Space between input and button */
+  flex: 1;
+}
+
+.search-bar input {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc; /* Border styling */
+  font-family: 'Courier New', monospace;
+}
+
+.search-bar button {
+  background-color: #e9765b; /* Button background color */
+  color: white; /* Button text color */
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-family: 'Courier New', monospace;
+}
+
+.search-bar button:hover {
+  background-color: #e55d00; /* Darker color on hover */
+}
+
+/* Responsive design for mobile screens */
+
